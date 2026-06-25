@@ -78,3 +78,6 @@ Pods/
 
 # Claude Code
 .claude/*.local.json
+
+# Local backups (do not commit)
+.local-backups/
