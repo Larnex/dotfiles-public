@@ -10,4 +10,6 @@ function fish_user_key_bindings
 end
 
 # fzf plugin
-fzf_configure_bindings --directory=\co
+if command -q fzf_configure_bindings
+  fzf_configure_bindings --directory=\co
+end
